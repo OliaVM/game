@@ -1,0 +1,25 @@
+body {
+	font-size: 12pt;
+}
+h1 {
+	color: #ffffff;
+}
+h2.redcolor {
+	color: #c70000;
+}
+#box1 {
+	background-color: #4e70ba;
+	text-align: center;
+}
+#box12 {
+	background-color: #4e70ba;
+	text-align: center;
+}
+#box4 {
+	background-color: #becbe6;
+	text-align: center;
+}
+#box8 {
+	background-color: #becbe6;
+	text-align: center;
+}

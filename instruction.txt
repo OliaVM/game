@@ -1,0 +1,20 @@
+1.	Install git https://git-scm.com/downloads 
+2.	Install VirtualBox https://www.virtualbox.org/ 
+3.	Install vagrant https://www.vagrantup.com/downloads.html 
+4.	Create directory for project 
+5.	Move the project in directory 
+6.	Install vagrant plugin https://github.com/cogitatio/vagrant-hostsupdater 
+7.	Execute in console:  vagrant up
+8.	Check out url http://myproject.local.index.php or http://192.168.50.5.index.php  in browser. 
+9.	The database is automatically connected (The password also there is in the file “bootstrap.sh”)
+
+DBUSER='root'
+DBNAME='myproject'
+DBPASSWD='vagrant'
+DBNAME='myproject'
+
+dump in "dump/myproject.sql"
+
+10.	The user password for authorization form: 111, user login: user1
+
+11. Fot test project change in table "user_activity" in phpmyadmin field "last_activity_time"

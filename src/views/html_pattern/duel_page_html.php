@@ -57,8 +57,8 @@
 			<!-- Вы -->
 			<div class="row">
 			    <div class="col-xs-3 col-sm-2">
-			    	<h3>Противник</h3>
-				    <?php echo "id противника " . $rowAttacker['user_id']; ?><br>
+			    	<h3>Вы</h3>
+				    <?php echo "id " . $rowAttacker['user_id']; ?><br>
 					<?php echo "логин " . $rowAttacker['login']; ?><br>
 					<?php echo "рейтинг " . $rowAttacker['rating']; ?><br>
 					<?php echo "урон " . $rowAttacker['loss']; ?><br>
